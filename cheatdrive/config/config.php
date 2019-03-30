@@ -1,0 +1,32 @@
+<?php
+$CONFIG = array (
+  'instanceid' => 'ocmj9cfevdt8',
+  'passwordsalt' => '2DncVte3C2Y9k+5i4ej6hauGBtYex/',
+  'secret' => 'IIFrQ5YH8a9plJ8MaL2lOMvnqkCYZczAqP6xhKZKA2/aWQ4y',
+  'trusted_domains' => 
+  array (
+    0 => 'www.cheatdrive.tk',
+  ),
+  'skeletondirectory' => '/var/www/html/cheatdrive/skeleton/',
+  'datadirectory' => '/var/nextcloud/data',
+  'dbtype' => 'mysql',
+  'version' => '15.0.2.0',
+  'overwrite.cli.url' => 'http://www.cheatdrive.tk/nextcloud',
+  'installed' => true,
+  'mail_from_address' => 'elliotampersand',
+  'mail_smtpmode' => 'smtp',
+  'mail_sendmailmode' => 'smtp',
+  'mail_domain' => 'gmail.com',
+  'mail_smtpauthtype' => 'LOGIN',
+  'mail_smtpauth' => 1,
+  'mail_smtphost' => 'smtp.gmail.com',
+  'mail_smtpport' => '465',
+  'mail_smtpname' => 'elliotampersand@gmail.com',
+  'mail_smtppassword' => 'notapirate1234',
+  'mail_smtpsecure' => 'ssl',
+  'maintenance' => false,
+  'dbname' => 'nextcloud',
+  'dbhost' => 'localhost',
+  'dbuser' => 'dbadmin',
+  'dbpassword' => 'rOotUser1',
+);

@@ -1,0 +1,15 @@
+<?php
+$CONFIG = array (
+  'instanceid' => 'ocmj9cfevdt8',
+  'passwordsalt' => '2DncVte3C2Y9k+5i4ej6hauGBtYex/',
+  'secret' => 'IIFrQ5YH8a9plJ8MaL2lOMvnqkCYZczAqP6xhKZKA2/aWQ4y',
+  'trusted_domains' => 
+  array (
+    0 => 'www.cheatdrive.tk',
+  ),
+  'datadirectory' => '/var/www/html/nextcloud/data',
+  'dbtype' => 'sqlite3',
+  'version' => '15.0.2.0',
+  'overwrite.cli.url' => 'http://www.cheatdrive.tk/nextcloud',
+  'installed' => true,
+);

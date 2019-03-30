@@ -1,0 +1,40 @@
+[
+    {
+        "name": "daita/my-small-php-tools",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/daita/my-small-php-tools.git",
+            "reference": "29754f18951856a22c0fd5fc388b6162ea98fe8a"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/daita/my-small-php-tools/zipball/29754f18951856a22c0fd5fc388b6162ea98fe8a",
+            "reference": "29754f18951856a22c0fd5fc388b6162ea98fe8a",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^7.0"
+        },
+        "time": "2018-12-18T00:38:01+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "daita\\MySmallPhpTools\\": "lib/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "AGPL-3.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "Maxence Lange",
+                "email": "maxence@artificial-owl.com"
+            }
+        ],
+        "description": "My small PHP Tools"
+    }
+]

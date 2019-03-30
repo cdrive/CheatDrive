@@ -1,0 +1,14 @@
+image: framasoft/framadate-ci:latest
+
+# Push new translations strings to https://trad.framasoft.org
+trads:
+  before_script:
+    - apt-get update
+    - apt-get install wget
+    - wget https://github.com/nextcloud/docker-ci/raw/master/translations/translationtool/translationtool.phar && chmod u+x translationtool.phar
+  script:
+  - php translationtool.phar create-pot-files
+  - if [ ! -z ${ZANATA_CONFIG_FRAMABOT+x} ]; then mkdir -p ${HOME}/.config; echo -e "${ZANATA_CONFIG_FRAMABOT}" > ${HOME}/.config/zanata.ini; fi
+  - if [ ! -z ${ZANATA_CONFIG_FRAMABOT+x} ]; then zanata-cli -q -B push; fi
+  only:
+    - master

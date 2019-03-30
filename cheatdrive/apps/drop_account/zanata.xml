@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<config xmlns="http://zanata.org/namespace/config/">
+	<url>https://trad.framasoft.org/</url>
+	<project>drop_account</project>
+	<project-version>master</project-version>
+	<project-type>gettext</project-type>
+	<src-dir>translationfiles</src-dir>
+	<trans-dir>translationfiles</trans-dir>
+	<rules>
+		<rule pattern="translationfiles/templates/*.pot">{locale}/{filename}.po</rule>
+	</rules>
+</config>

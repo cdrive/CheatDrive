@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<info xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+	<id>dropit</id>
+	<name>DropIt</name>
+	<summary>Quickly share text or files by dropping them to your Nextcloud!</summary>
+	<description>Just drop text and data quickly to your Nextcloud. For those times you just want to share a file but don't care about where to store it.</description>
+	<version>0.1.3</version>
+	<licence>agpl</licence>
+	<author>Roeland Jago Douma</author>
+	<namespace>DropIt</namespace>
+	<category>social</category>
+	<category>files</category>
+	<website>https://github.com/rullzer/dropit</website>
+	<bugs>https://github.com/rullzer/dropit/issues</bugs>
+	<repository type="git">https://github.com/rullzer/dropit.git</repository>
+	<dependencies>
+		<php min-version="7.0"/>
+		<nextcloud min-version="13" max-version="15" />
+	</dependencies>
+
+	<background-jobs>
+		<job>OCA\DropIt\BackgroundJob\CleanUpJob</job>
+	</background-jobs>
+</info>
